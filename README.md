@@ -58,7 +58,7 @@ This will build and run the app on your Android or iOS device or emulator.
 
 ## Coding Time Breakdown
 
-I spent the following amount of time on this project::
+I spent the following amount of time on this project:
 
 -   Initial project setup and repository creation: 1 hour
 -   Familiarization with the API documentation: 0.5 hour
