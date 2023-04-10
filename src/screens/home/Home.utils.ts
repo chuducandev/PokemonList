@@ -13,7 +13,6 @@ export const getPageRange = (page: number, length: number): [number, number] => 
 };
 
 export const getIntersection = (pokemonBriefsList: PokemonBriefModel[][]): PokemonBriefModel[] => {
-    console.log('pokemonBriefsList', JSON.stringify(pokemonBriefsList, null, 2));
     return pokemonBriefsList.reduce((acc, pokemonBriefs) => {
         return acc.filter(pokemonBrief => {
             return pokemonBriefs.some(pokemonBrief2 => pokemonBrief2.name === pokemonBrief.name);

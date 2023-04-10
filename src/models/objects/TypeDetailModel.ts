@@ -11,10 +11,6 @@ export class TypeDetailModel {
     ) {}
 
     public static instantiateItem(json: unknown = undefined): TypeDetailModel {
-        console.log(
-            'TypeDetailModel.instantiateItem(json: unknown = undefined): TypeDetailModel',
-            JSON.stringify(json, null, 2)
-        );
         const id = safeGetNumber(json, 'id', -1);
         const name = safeGetString(json, 'name', '');
         const pokemon = TypePokemonBriefModel.instantiateList(safeGetArray(json, 'pokemon', []));

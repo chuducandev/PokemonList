@@ -195,8 +195,6 @@ export const useViewModel = (dependencies = defaultDependencies) => {
                     return;
                 }
 
-                console.log('selectedTypes', JSON.stringify(selectedTypes, null, 2));
-
                 const pokemonBriefs = getIntersection(
                     types.filter(t => t.selected === true).map(t => t.pokemon.map(p => p.pokemon))
                 );
