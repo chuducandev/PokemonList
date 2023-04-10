@@ -10,6 +10,9 @@ export const styles = StyleSheet.create({
         borderWidth: Spacing2,
         borderColor: Colors.FaluRed,
     },
+    containerSkeleton: {
+        margin: Spacing8,
+    },
     typeTitle: {
         fontSize: scaleSize(16),
         fontWeight: 'bold',

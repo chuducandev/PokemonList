@@ -1,3 +1,7 @@
+import { TypeDetailModel } from '@pokemon/models';
+
 export type TypeListProps = {
-    types: string[];
+    types: TypeDetailModel[];
+    loading: boolean;
+    onPressType: (type: TypeDetailModel) => void;
 };

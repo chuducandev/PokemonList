@@ -9,5 +9,18 @@ export const styles = StyleSheet.create({
         color: Colors.Black,
         marginTop: Spacing16,
     },
-    contentContainer: { padding: Spacing16 },
+    foundResultsSkeleton: {
+        marginTop: Spacing16,
+    },
+    contentContainer: {
+        padding: Spacing16,
+    },
+    container: {
+        height: '100%',
+    },
+    footerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: Spacing16,
+    },
 });

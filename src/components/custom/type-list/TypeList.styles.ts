@@ -10,7 +10,12 @@ export const styles = StyleSheet.create({
         marginTop: Spacing16,
         width: scaleSize(60),
     },
+    titleSkeleton: {
+        marginTop: Spacing16,
+        marginRight: scaleSize(10),
+    },
     contentContainer: {
+        flexDirection: 'row',
         flexWrap: 'wrap',
         width: ScreenWidth - Spacing32 - scaleSize(60),
     },

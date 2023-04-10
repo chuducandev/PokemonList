@@ -1,3 +1,6 @@
+import { PokemonDetailModel } from '@pokemon/models';
+
 export type PokemonListProps = {
-    pokemon: Array<{ name: string; image: string }>;
+    pokemon: PokemonDetailModel[];
+    loading: boolean;
 };
